@@ -10,9 +10,16 @@ document.addEventListener("deviceready", function () {
 });
     
 function notifyMe(){
-    alert("Notified!");
+    navigator.notification.alert("You'v been Notified!", null, "Header of Alert here", "Ok");
 }
     
+function confirmCallback(buttonInd){
+    navigator.notification.alert("Test " + buttonInd, null)
+}
+
+function confirmDelete(){
+    navigator.notification.confirm("Are you sure?", confirmCallback, "Header of Alert here", ["Delete","No"]);
+}
     
     
     //    alert("Device is Ready!");
