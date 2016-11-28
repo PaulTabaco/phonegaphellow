@@ -2,3 +2,16 @@ body{
     background: #00caf2;
     font-size: large;
 }
+
+a:link, a:visited {
+    background-color: #fff;
+    color: #203040;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #999999;
+}
