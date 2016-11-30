@@ -10,9 +10,6 @@
         "cordova-plugin-battery-status": {
             "PACKAGE_NAME": "com.superpaul.hellopgmob"
         },
-        "cordova-plugin-camera": {
-            "PACKAGE_NAME": "com.superpaul.hellopgmob"
-        },
         "cordova-plugin-console": {
             "PACKAGE_NAME": "com.superpaul.hellopgmob"
         },
@@ -62,6 +59,15 @@
             "PACKAGE_NAME": "com.superpaul.hellopgmob"
         },
         "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.superpaul.hellopgmob"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.superpaul.hellopgmob"
+        },
+        "cordova-custom-config": {
+            "PACKAGE_NAME": "com.superpaul.hellopgmob"
+        },
+        "cordova-plugin-add-swift-support": {
             "PACKAGE_NAME": "com.superpaul.hellopgmob"
         }
     },

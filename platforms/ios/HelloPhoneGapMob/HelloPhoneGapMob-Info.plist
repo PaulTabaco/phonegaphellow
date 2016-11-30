@@ -54,5 +54,7 @@
     </dict>
     <key>NSLocationWhenInUseUsageDescription</key>
     <string/>
+    <key>NSCameraUsageDescription</key>
+    <string>$CAMERA_PERMISSION_REASON</string>
   </dict>
 </plist>

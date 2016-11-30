@@ -7,14 +7,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-camera": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-camera@~2.1.1"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-media-capture": {
         "source": {
             "type": "registry",
@@ -43,14 +35,6 @@
         "source": {
             "type": "registry",
             "id": "cordova-plugin-console@~1.0.2"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-contacts": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-contacts@~2.0.1"
         },
         "is_top_level": true,
         "variables": {}
@@ -163,6 +147,43 @@
         "source": {
             "type": "registry",
             "id": "cordova-plugin-whitelist@~1.2.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-contacts": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-contacts@~2.0.1"
+        },
+        "is_top_level": true,
+        "variables": {
+            "CONTACTS_USAGE_DESCRIPTION": "your usage message"
+        }
+    },
+    "cordova-plugin-camera": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-camera@~2.1.1"
+        },
+        "is_top_level": true,
+        "variables": {
+            "CAMERA_USAGE_DESCRIPTION": "App needs camera access to scan cards",
+            "PHOTOLIBRARY_USAGE_DESCRIPTION": "App needs photoligruary access to get scaned documents"
+        }
+    },
+    "cordova-custom-config": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-custom-config@~3.1.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-add-swift-support": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-add-swift-support"
         },
         "is_top_level": true,
         "variables": {}

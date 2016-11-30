@@ -1,17 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Cordova Project 1</title>
-    <meta name="viewport" content="width=device-width,user-scalable=no">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<h1>Cordova PR 1</h1>
+<meta charset="UTF-8">
+<title>Cordova Project 1</title>
+<script src="cordova.js"></script>
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="platform.css">
 
-<input type="button" value="Click Me" onclick="buttonClick()">
-</body>
+
+<h1>Cordova PR 4455</h1>
+<a href="javascript:notifyMe()">Notify Me</a><br>
+<a href="javascript:confirmDelete()">Delete</a><br>
+<a href="javascript:takePicture()">Take a picture</a><br>
+<a href="javascript:takeSelfie()">Take a selfie</a><br>
+<a href="javascript:pickPicture()">Pick Picture</a><br>
+<a href="javascript:addContact()">Save a contact</a><br>
+<a href="javascript:pickContact()">Pick a contact</a><br>
+<a href="javascript:openInAppBrowser()">Open Browser in App</a><br>
+<a href="javascript:captureAudio()">Capture Audio</a><br>
+<a href="javascript:vibrate()">Vibrate</a><br>
+
+<section id="output">
+    <img>
+    <p></p>
+</section>
 
 <script src="myapp.js" ></script>
-
-</html>
